@@ -1,0 +1,23 @@
+{
+    "name": "ru-gallery",
+    "version": "0.1.0",
+    "authors": [
+        "Vadim Gusev <vadim@whitestar.ru>"
+    ],
+
+    "description": "Sistema JSFC gallery project",
+    "license": "MIT",
+    "homepage": "http://sistema-gallery.ru/",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies": {
+        "bootstrap": "~3.1.1"
+    }
+}

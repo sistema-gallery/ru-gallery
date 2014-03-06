@@ -1,0 +1,9 @@
+<ul class="nav nav-pills nav-stacked related-nav">
+    {{#related page }}
+        {{#if isCurrentPage }}
+            <li class="active"><a href="{{ pagePath this }}">{{ data.title }}</a></li>
+        {{ else }}
+            <li><a href="{{ pagePath this }}">{{ data.title }}</a></li>
+        {{/if}}
+    {{/related}}
+</ul>

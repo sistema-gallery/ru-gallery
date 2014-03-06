@@ -1,0 +1,104 @@
+nodes:
+  - name: Биография
+    nodes:
+      - name: Владимир Мартынов
+        url: /bio/martynov.html
+      - name: Татьяна Гринденко
+        url: /bio/grindenko.html
+
+  - name: Пресса
+    nodes:
+      - name: «Vita Nova» Владимира Мартынова
+        url: /press/vitanova.html
+      - name: 'Где наша роза, друзья мои?'
+        url: /press/rose.html
+      - name: Классическая музыка - это болезнь
+        url: /press/classic.html
+      - name: Музыкальная история
+        url: /press/style-of-loft.html
+      - name: На бывшей телефонной станции
+        url: /press/phone.html
+      - name: Новый концертный зал
+        url: /press/new-hall.html
+      - name: Предвосхищая время
+        url: /press/anticipate-time.html
+      - name: Пришло ли время Алисы
+        url: /press/alice.html
+      - name: Звуки инноваций
+        url: http://lifttothefuture.ru/projects/view/blogitem/news/534
+        ext: 1
+      - name: Упражнения и танцы Гвидо
+        url: /press/exercise.html
+
+  - name: Медиа
+    nodes:
+      - name: Фото
+        url: header
+      - name: ПРЕЗЕНТАЦИЯ ОПЕРЫ В.МАРТЫНОВА "VITA NOVA" 25 октября 2012
+        url: /photo/vitanova.html
+      - name: Зона Опус Пост Башня 13.09 в честь юбилея Джона Кейджа
+        url: /photo/cage.html
+      - name: Зона Опус Пост
+        url: /photo/opus-zone.html
+      - name: Мероприятия в здании Ситроникс
+        url: /photo/sitronix.html
+
+      - url: divider
+      - name: Музыка
+        url: header
+      - name: Владимир Мартынов
+        url: /music/martynov.html
+      - name: Концерты на Милютинском
+        url: /music/milut.html
+      - name: Концерт Татьяны Гринденко
+        url: /music/grindenko.html
+      - name: L'apres Midi Du Bach
+        url: /music/bach.html
+
+      - url: divider
+      - name: Видео
+        url: header
+      - name: 'Концерт "Зона Опус Пост"'
+        url: http://paraclassics.com/opus-posth-tatiana-grindenko-vladimir-martynov-iannis-xenakis/
+        ext: 1
+      - name: Интервью с Владимиром Юровским
+        url: /video/yurovsky.html
+      - name: Упражнения и танцы Гвидо
+        url: /video/exercise-1.html
+      - name: Современное искусство без выхода
+        url: /video/modern.html
+      - name: Милютинский 13.09.2012
+        url: /video/milut-1.html
+      - name: Лекции
+        url: /video/lecture-1.html
+      - name: Звук и Образ
+        url: /video/sound.html
+
+  - name: Мероприятия
+    nodes:
+      - name: Презентация оперы Vita Nova
+        url: /event/vitanova.html
+      - name: Мероприятия на Милютинском
+        url: /event/milut.html
+      - url: divider
+      - name: Контакты
+        url: /contact.html
+
+  - name: Проекты
+    nodes:
+      - name: Проект постановки оперы
+        url: /project/opera.html
+      - name: Видео
+        url: /project/video.html
+      - name: Аудио
+        url: /project/audio.html
+      - name: Фото
+        url: /project/photo.html
+      - name: Проект пространства
+        url: /project/space.html
+
+  - name: Фонд "Летний День"
+    url: /article/summer.html
+
+  - name: English
+    url: http://en.sistema-gallery.ru

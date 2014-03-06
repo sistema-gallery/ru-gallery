@@ -1,0 +1,23 @@
+---
+layout: default.hbs
+disqusName: 'sistema-gallery'
+---
+{{ checkRelatives page }}
+<div class="row">
+    {{#if page.hasRelatives }}
+        <div class="col-xs-3">
+            {{> category-nav }}
+        </div>
+    {{/if}}
+
+    <div class="col-xs-{{#if page.hasRelatives }}9{{ else }}12{{/if}}">
+        <h3>{{ title }}</h3>
+        <hr>
+
+        {{#markdown}}
+        {{> body }}
+        {{/markdown}}
+
+        <div id="disqus_thread"></div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+body {
+    padding-bottom: 40px;
+    background-image: url(grid-18px-masked.png);
+    background-repeat: repeat-x;
+    background-position: 0 40px;
+}
+
+.brand {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.brand img {
+    width: 230px;
+    height: 172px;
+}
+
+.related-nav {
+    margin-top: 70px;
+}
+
+.main-layout .img-thumbnail {
+    margin: 0 10px 5px 10px
+}
+
+.nav li.disabled.nav-header > a {
+    cursor: default;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav .glyphicon-share {
+    color: silver;
+}
+
+.music td {
+    padding-right: 10px;
+}
+
+.youtube {
+    border: none;
+    width: 640px;
+    height: 385px
+}
+
+footer small {
+    color: silver
+}
