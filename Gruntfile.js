@@ -61,11 +61,6 @@ module.exports = function (grunt) {
                 layout: '<%= assemble.options.layourdir %>/default.hbs',
                 data: '<%= config.src %>/data/*.{json,yml}',
                 partials: '<%= config.src %>/templates/partials/*.hbs',
-                plugins: [
-                    'assemble-contrib-permalinks',
-                    'assemble-contrib-sitemap'
-                ],
-
                 helpers: [
                     '<%= config.src %>/templates/helpers/**/*.js'
                 ],
