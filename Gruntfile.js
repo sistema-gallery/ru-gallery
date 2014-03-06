@@ -126,7 +126,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '<%= config.src %>/assets',
-                        src: '**',
+                        src: ['**', '!robots.txt', '!favicon.ico'],
                         dest: '<%= config.dist %>/assets'
                     },
                     {
@@ -138,16 +138,14 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '<%= config.src %>/assets',
-                        src: 'robots.txt',
-                        dest: '<%= config.dist %>/'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= config.src %>/assets',
-                        src: 'favicon.ico',
+                        src: '{robots.txt,favicon.ico}',
                         dest: '<%= config.dist %>/'
                     }
                 ]
+            },
+            github: {
+                src: '{.nojekyll,CNAME}',
+                dest: '<%= config.dist %>/'
             }
         }
     })
