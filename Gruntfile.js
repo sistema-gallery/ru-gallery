@@ -65,7 +65,8 @@ module.exports = function (grunt) {
                     '<%= config.src %>/templates/helpers/**/*.js'
                 ],
 
-                destPref: '<%= config.dist %>'
+                destPref: '<%= config.dist %>',
+                googleAnalytics: 'UA-34724857-1'
             },
 
             pages: {
@@ -81,7 +82,8 @@ module.exports = function (grunt) {
 
             content: {
                 options: {
-                    layout: '<%= assemble.options.layourdir %>/default-md.hbs',
+                    disqusName: 'sistema-gallery',
+                    layout: '<%= assemble.options.layourdir %>/default-md.hbs'
                 },
                 files: [
                     {
