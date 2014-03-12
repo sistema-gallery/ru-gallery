@@ -1,0 +1,14 @@
+build:
+    - 'clean'
+    - 'copy'
+    - 'assemble'
+
+server:
+    - 'clean'
+    - 'copy'
+    - 'assemble'
+    - 'connect:livereload'
+    - 'watch'
+
+default:
+  - 'build'
