@@ -33,7 +33,7 @@ deactivate
 ```
 
 
-## Commit changes
+## Commit Сhanges
 ```
 git commit -am 'Add some changes'
 git push
