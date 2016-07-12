@@ -27,7 +27,7 @@ popd
 ```
 pyvenv venv
 . venv/bin/activate
-pip intstall ghp-import
+pip install ghp-import
 ghp-import -p dist
 deactivate
 ```
