@@ -4,6 +4,7 @@ title: 'Фонд "Летний День"'
 <iframe src="//www.slideshare.net/slideshow/embed_code/42575555" width="710" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="margin-bottom: 30px"></iframe>
 
 [scan.pdf](./files/scan.pdf)
+
 [Отчет по фонду за 2014 г.](./files/summer-report-2014.pdf)
 
 Фонд поддержки инициатив в области культуры занимается вопросами национальной самоидентификации в условиях тотальной глобализации и новых цивилизационных вызовов.
